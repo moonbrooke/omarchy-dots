@@ -1,0 +1,2 @@
+# omarchy
+personal omarchy customizations 

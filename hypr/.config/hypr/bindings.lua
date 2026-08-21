@@ -38,10 +38,19 @@ hl.unbind("SUPER + SHIFT + ALT + A")
 hl.unbind("SUPER + SHIFT + CTRL + A")
 hl.unbind("SUPER + SHIFT + CTRL + G")
 hl.unbind("SUPER + SHIFT + CTRL + R")
+hl.unbind("SUPER + SHIFT + LEFT")
+hl.unbind("SUPER + SHIFT + RIGHT")
+hl.unbind("SUPER + SHIFT + UP")
+hl.unbind("SUPER + SHIFT + DOWN")
 
 o.bind("SUPER + Q", "Close window", hl.dsp.window.close())
+
 o.bind("SUPER + W", "Browser", { omarchy = "browser" })
 
+o.bind("SUPER + SHIFT + LEFT", "Move window to the left", hl.dsp.window.move({ direction = "l" }))
+o.bind("SUPER + SHIFT + RIGHT", "Move window to the right", hl.dsp.window.move({ direction = "r" }))
+o.bind("SUPER + SHIFT + UP", "Move window up", hl.dsp.window.move({ direction = "u" }))
+o.bind("SUPER + SHIFT + DOWN", "Move window down", hl.dsp.window.move({ direction = "d" }))
 -- Disable a default binding without replacing it.
 -- hl.unbind("SUPER + SHIFT + B")
 

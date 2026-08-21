@@ -9,7 +9,8 @@
 source "$OMARCHY_PATH/default/bash/rc"
 
 # Add your own exports, aliases, and functions here.
-#
+export PATH="$HOME/scripts:$PATH"
+
 # Make an alias for invoking commands you use constantly
 # alias p='python'
 

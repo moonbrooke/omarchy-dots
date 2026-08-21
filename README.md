@@ -1,2 +1,2 @@
-# omarchy
+# omarchy-dots
 personal omarchy customizations 

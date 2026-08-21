@@ -43,8 +43,7 @@ alias gaa="git add ."
 alias gcms="git commit -m"
 alias gsmi="git submodule update --init --recursive"
 alias gsmu="git pull --recurse-submodules; git submodule update --remote --merge"
-
-alias cava="cava -p ~/.config/cava/tokyonight"
+alias gst="git status"
 
 
 
